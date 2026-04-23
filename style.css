@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-/* Main */
+/* Main Content */
 .content {
   flex: 1;
   padding: 25px;
@@ -86,10 +86,6 @@ body {
   transform: translateY(-4px);
 }
 
-.card h3 {
-  margin: 0 0 5px 0;
-}
-
 /* Settings Panel */
 .settings {
   position: fixed;
@@ -105,10 +101,6 @@ body {
 
 .settings.open {
   right: 0;
-}
-
-.settings h4 {
-  margin-top: 20px;
 }
 
 .settings button {
