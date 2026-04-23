@@ -1,3 +1,6 @@
+function openGame(url) {
+  window.open(url, "_blank");
+}
 function toggleSettings() {
   document.getElementById("settings").classList.toggle("open");
 }
