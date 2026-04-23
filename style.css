@@ -43,7 +43,7 @@ body {
   color: #fff;
 }
 
-/* Main Content */
+/* Main */
 .content {
   flex: 1;
   padding: 25px;
@@ -53,21 +53,17 @@ body {
 .search-bar {
   width: 100%;
   max-width: 320px;
-  padding: 8px 12px;
+  padding: 10px 14px;
   margin-bottom: 20px;
   background: #1c1c1c;
   border: 1px solid #2a2a2a;
-  border-radius: 6px;
-  color: #eee;
-  outline: none;
+  border-radius: 8px;
+  color: #eaeaea;
+  font-size: 15px;
 }
 
 .search-bar::placeholder {
   color: #888;
-}
-
-.search-bar:focus {
-  border-color: #555;
 }
 
 /* Game Grid */
@@ -82,7 +78,7 @@ body {
   padding: 15px;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: 0.15s ease;
 }
 
 .card:hover {
@@ -128,4 +124,3 @@ body {
 .settings button:hover {
   background: #2a2a2a;
 }
-``
